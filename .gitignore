@@ -1,0 +1,29 @@
+.gradle
+build/
+target/
+log/
+!**/src/main/**
+!**/src/test/**
+src/main/generated
+**/*~lock*
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+*.log
+
+### CI/CD ###
+docker/**
+helm/**
+dependencies/**
+jar/**
+.gitlab-ci.yml
+azure-pipelines.yml
+ci-settings.xml
+local-settings.xml
+values-prod.yaml
+values-staging.yaml
+values-dev.yaml
